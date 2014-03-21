@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showcase.Wpf", "Showcase.Wpf\Showcase.Wpf.csproj", "{F5819D7D-C5EC-480E-9DD9-CDC6875F5677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showcase.Wpf.Base", "Showcase.Wpf.Base\Showcase.Wpf.Base.csproj", "{323EB528-932C-4011-AF70-51C2B3DDF8CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showcase.Wpf.ViewModels", "Showcase.Wpf.ViewModels\Showcase.Wpf.ViewModels.csproj", "{23FA631F-1710-4E07-B176-36BD0DD1B7A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showcase.Domain", "Showcase.Domain\Showcase.Domain.csproj", "{49DBE022-F2F0-4BD3-89BD-44C6CC8E5A85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showcase.Repositories", "Showcase.Repositories\Showcase.Repositories.csproj", "{D3EC63FA-1BDD-41A3-8B14-BDF41D8A3880}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4E565556-1231-468B-AEC9-2F49BDDC340B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5819D7D-C5EC-480E-9DD9-CDC6875F5677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5819D7D-C5EC-480E-9DD9-CDC6875F5677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5819D7D-C5EC-480E-9DD9-CDC6875F5677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5819D7D-C5EC-480E-9DD9-CDC6875F5677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323EB528-932C-4011-AF70-51C2B3DDF8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323EB528-932C-4011-AF70-51C2B3DDF8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323EB528-932C-4011-AF70-51C2B3DDF8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323EB528-932C-4011-AF70-51C2B3DDF8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23FA631F-1710-4E07-B176-36BD0DD1B7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FA631F-1710-4E07-B176-36BD0DD1B7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FA631F-1710-4E07-B176-36BD0DD1B7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FA631F-1710-4E07-B176-36BD0DD1B7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DBE022-F2F0-4BD3-89BD-44C6CC8E5A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DBE022-F2F0-4BD3-89BD-44C6CC8E5A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DBE022-F2F0-4BD3-89BD-44C6CC8E5A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DBE022-F2F0-4BD3-89BD-44C6CC8E5A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EC63FA-1BDD-41A3-8B14-BDF41D8A3880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EC63FA-1BDD-41A3-8B14-BDF41D8A3880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EC63FA-1BDD-41A3-8B14-BDF41D8A3880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EC63FA-1BDD-41A3-8B14-BDF41D8A3880}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
