@@ -10,3 +10,5 @@ These applications are written entirely using the Express editions of Visual stu
 Thanks to:
 * Microsoft for providing the Express editions of Visual Studo. Also for .NET Framework.
 * StructureMap for providing an awesome IoC framework.
+
+PS: This project is still in active development.
